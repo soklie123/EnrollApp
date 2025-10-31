@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "799233073197",
+    "project_id": "student-enrollment-app-eda25",
+    "storage_bucket": "student-enrollment-app-eda25.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799233073197:android:5894d9b5930a5d4f2458a4",
+        "android_client_info": {
+          "package_name": "com.example.student_enrollment_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKkJg98wdap0Fyb9H1ZWhQlQKkNTw9ezU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
