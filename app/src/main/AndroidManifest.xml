@@ -1,37 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    package="com.example.student_enrollment_app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
-        android:dataExtractionRules="@xml/data_extraction_rules"
-        android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="Student_Enrollment_App"
+        android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Student_Enrollment_App">
-        <activity
-            android:name=".HomeScreenActivity"
-            android:exported="false" />
+        android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- SPLASH ACTIVITY (MUST BE LAUNCHER) -->
         <activity
             android:name=".SplashActivity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- SIGN IN ACTIVITY -->
         <activity
             android:name=".SignInActivity"
-            android:exported="true" />
-        <activity
-            android:name=".activity_sign_up"
             android:exported="false" />
+
+        <!-- SIGN UP ACTIVITY -->
         <activity
-            android:name=".MainActivity"
+            android:name=".SignUpActivity"
             android:exported="false" />
+
+        <!-- HOME ACTIVITY -->
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+
     </application>
 
 </manifest>

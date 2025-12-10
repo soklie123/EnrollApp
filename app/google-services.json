@@ -12,7 +12,20 @@
           "package_name": "com.example.student_enrollment_app"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "799233073197-pigd1ujb2adg64vv2d0ndr6shl1s6nle.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.student_enrollment_app",
+            "certificate_hash": "f81cba6f2ae0478ddcaf4c9d7fbe942ada813f6f"
+          }
+        },
+        {
+          "client_id": "799233073197-3f9dc7etp2lce5i5nl7rqsqk1v5ioojh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyBKkJg98wdap0Fyb9H1ZWhQlQKkNTw9ezU"
@@ -20,7 +33,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "799233073197-3f9dc7etp2lce5i5nl7rqsqk1v5ioojh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }
