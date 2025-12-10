@@ -33,7 +33,7 @@
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
                 android:background="@android:color/white"
-                tools:src="@drawable/ic_launcher_background" /> <!-- Replace with your actual logo placeholder -->
+                tools:src="@mipmap/ic_launcher_foreground" /> <!-- Replace with your actual logo placeholder -->
 
         </com.google.android.material.card.MaterialCardView>
 
