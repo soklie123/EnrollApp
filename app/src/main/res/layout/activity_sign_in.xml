@@ -128,6 +128,11 @@
                 android:textStyle="bold" />
 
         </LinearLayout>
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/btnSignInGoogle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" />
 
         <!-- Progress Bar -->
         <ProgressBar
