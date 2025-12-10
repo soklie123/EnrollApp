@@ -44,20 +44,30 @@ android {
 
 dependencies {
     implementation(libs.androidx.swiperefreshlayout)
-
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
-    implementation(platform(libs.firebase.bom))
-    implementation(libs.firebase.auth)
 
+    // ✅ Google Sign-In dependency
+    implementation("com.google.android.gms:play-services-auth:21.3.0")
+
+    implementation(platform(libs.firebase.bom))
+  
+    implementation("com.google.firebase:firebase-auth-ktx")
+    implementation("com.google.firebase:firebase-analytics-ktx")
+    // ... your existing dependencies
+
+
+    // Navigation
+    implementation(libs.androidx.navigation.fragment.ktx)
+    implementation(libs.androidx.navigation.ui.ktx)
+
+    // Glide
     implementation(libs.glide)
 
-    implementation(libs.androidx.navigation.fragment.ktx) // <-- ADD THIS
-    implementation(libs.androidx.navigation.ui.ktx)      // <-- AND THIS
-
+    // Testing
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
